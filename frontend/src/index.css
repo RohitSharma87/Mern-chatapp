@@ -11,7 +11,6 @@ body {
 }
 
 
-/* dark mode looking scrollbar */
 ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -28,6 +27,13 @@ body {
 ::-webkit-scrollbar-thumb:hover {
 	background: #242424;
 }
+
+/* Firefox */
+* {
+	scrollbar-width: thin; /* Thin scrollbar */
+	scrollbar-color: #121212 #555; /* Thumb color and track color */
+}
+  
 
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */
 .shake {
